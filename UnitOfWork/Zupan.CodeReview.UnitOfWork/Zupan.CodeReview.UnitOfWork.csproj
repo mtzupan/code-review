@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Repositories\Zupan.CodeReview.Repository.EF\Zupan.CodeReview.Repository.EF.csproj" />
+    <ProjectReference Include="..\..\Repositories\Zupan.CodeReview.Repository.Interfaces\Zupan.CodeReview.Repository.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
